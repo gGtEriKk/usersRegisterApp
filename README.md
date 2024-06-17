@@ -1,70 +1,63 @@
-# Getting Started with Create React App
+# Registro de Usuários
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Descrição:
 
-## Available Scripts
+<p>
+    Neste projeto desenvolvido com React, foi criado um formulário de preenchimento com nome e idade
+    do usuário para fazer o cadastro. Foi também inserida uma verificação para que só possam se cadastrar
+    os usuários maiores de 18 anos.
+    Foi também criada uma API com Node.js para ser consumida e atuar como o back-end para fazer a requisição
+    de cadastro dos usuários.
+    Os usuários cadastrados são armazenados no LocalStorage e também há o botão de deletar cada um da lista.
+    Uma rota é a Home, para preencher os inputs com nome e idade, ao apertar o botão 'Cadastrar', redireciona
+    para a rota de Users, onde podemos ver o nome e a idade de cada usuário.
+</p>
 
-In the project directory, you can run:
+<br>
+<br>
 
-### `npm start`
+> Imagens do projeto:
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+<div>
+    <img width="400px" src="./src/assets/print-userregister.png"/>
+    <img width="400px" src="./src/assets/printusersregister2.png"/>
+    <img width="400px" height="220px" src="./src/assets/print-back-end-vercel.png"/>
+</div>
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+<br>
 
-### `npm test`
+### Tecnologias utilizadas 💻:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+<img src="https://img.shields.io/badge/React-61DAFB.svg?style=for-the-badge&logo=React&logoColor=black"/>
+<img src="https://img.shields.io/badge/styledcomponents-DB7093.svg?style=for-the-badge&logo=styled-components&logoColor=white"/>
 
-### `npm run build`
+<br>
+<br>
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Criação:
+> 'npx create-react-app'
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### Rodar a aplicação:
+> 'npm start' ou 'yarn start'
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Para clonar este repositório:
+> git clone https://github.com/gGtEriKk/usersRegisterApp.git
 
-### `npm run eject`
+### Link da API (Repositório):
+<a href="https://github.com/gGtEriKk/firstProjectNodeDevClub/tree/master">Clique aqui</a>
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+### Deploy da API (rota 'users'):
+<a href="https://first-project-node-dev-club-3utup79w4-ggterikk.vercel.app/users">Clique aqui</a>
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### Desenvolvido por:
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+<table>
+  <tr>
+    <td align="center">
+      <a href="https://github.com/gGtEriKk">
+        <img src="https://avatars.githubusercontent.com/u/101311661?v=4" width=100px; alt="foto do perfil"><br>
+          <sub>
+            <b>Erik Gomes</b>
+          </sub>
+      </a>
+</table>
